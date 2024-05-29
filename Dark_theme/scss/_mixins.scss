@@ -1,0 +1,22 @@
+@mixin flex ($direction,$justify,$align-items,$gap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+@mixin Lato-font ($style,$weight,$size) {
+    font-family: "Lato", sans-serif;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+}
+
+@mixin Playfair-font ($size) {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: $size;
+}

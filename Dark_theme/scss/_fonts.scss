@@ -1,0 +1,134 @@
+.menu__link {
+    @include Lato-font (normal, 400, 0.875rem);
+    color: $main-color;
+}
+
+.title {
+    @include Playfair-font (2.75rem);
+    color: $main-color;
+
+    @media screen and (max-width: 992px) {
+        font-size: 1.975rem;
+    }
+}
+
+.text {
+    @include Lato-font (normal, 300, 1.125rem);
+
+    @media screen and (max-width: 992px) {
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 0.875rem;
+    }
+}
+
+.dollar-symbol {
+    @include Playfair-font (2.5rem);
+    color: $main-color;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 2rem;
+    }
+    @media screen and (max-width: 992px) {
+        font-size: 1.775rem;
+    }
+}
+
+.info-title {
+    @include Playfair-font (3.375rem);
+    color: $main-color;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 1.875rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.675rem;
+    }
+}
+
+.footer-subtitle,
+.subtitle {
+    @include Lato-font (normal, 300, 1.125rem);
+    color: $main-color;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 0.975rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 0.775rem;
+    }
+}
+
+.footer-title,
+.benefits-title {
+    @include Playfair-font (2.5rem);
+    color: $main-color;
+    max-width: 420px;
+
+    @media screen and (max-width: 992px) {
+        font-size: 2rem;
+    }
+}
+
+.quote-title {
+    @include Lato-font (normal, 400, 2rem);
+    color: $main-color;
+    letter-spacing: 3px;
+    
+    @media screen and (max-width: 992px) {
+        font-size: 1.575rem;
+        letter-spacing: 2.5px;
+    }
+}
+
+.subtitle-italic {
+    @include Playfair-font (1.25rem);
+    font-style: italic;
+
+    @media screen and (max-width: 992px) {
+        font-size: 1rem;
+    }
+}
+
+.promises-title {
+    @include Playfair-font (1.5rem);
+    color: $main-color;
+    text-align: left;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 0.975rem;
+    }
+}
+
+.video-title,
+.reviews-title {
+    @include Playfair-font (2.5rem);
+    color: $main-color;
+    @media screen and (max-width: 992px) {
+        font-size: 1.975rem;
+    }
+}
+
+.copyright__text,
+.made-by {
+    @include Lato-font (normal, 300, 0.875rem);
+    color: $main-color;
+
+}
+
+.text-regular,
+.agreement {
+    @include Lato-font (normal, 400, 0.875rem);
+    color: $main-color;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="text"] {
+    @include Playfair-font (1.125rem);
+    font-style: italic;
+}
